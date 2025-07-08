@@ -97,13 +97,13 @@ npm start
 |------|------|------|
 | GET    | /api/users                | 获取所有用户 |
 | POST   | /api/users                | 创建新用户（参数：name）|
-| DELETE | /api/users/<id>           | 删除用户 |
-| GET    | /api/users/<id>/weight    | 获取用户体重记录（支持 time_range=week/month/year/all）|
-| POST   | /api/users/<id>/weight    | 添加体重记录（参数：weight, date）|
-| PUT    | /api/users/<id>/weight/<record_id> | 更新体重记录 |
-| DELETE | /api/users/<id>/weight/<record_id> | 删除体重记录 |
-| POST   | /api/users/<id>/photos    | 上传照片（表单参数：file, date）|
-| GET    | /api/users/<id>/photos    | 获取用户所有照片 |
+| DELETE | /api/users/\<id\>           | 删除用户 |
+| GET    | /api/users/\<id\>/weight    | 获取用户体重记录（支持 time_range=week/month/year/all）|
+| POST   | /api/users/\<id\>/weight    | 添加体重记录（参数：weight, date）|
+| PUT    | /api/users/\<id\>/weight/<record_id> | 更新体重记录 |
+| DELETE | /api/users/\<id\>/weight/<record_id> | 删除体重记录 |
+| POST   | /api/users/\<id\>/photos    | 上传照片（表单参数：file, date）|
+| GET    | /api/users/\<id\>/photos    | 获取用户所有照片 |
 | GET    | /api/photos/<photo_id>    | 获取单张照片 |
 | GET    | /api/photos/<photo_id>/download | 下载照片 |
 | DELETE | /api/photos/<photo_id>    | 删除照片 |
